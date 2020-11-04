@@ -151,6 +151,7 @@ figure{
     font-size: 20px;
     text-align: justify;
     line-height: 1.2;
+    padding-right: 10px;
 }
 
  .xhunco-image{
@@ -250,7 +251,7 @@ figure{
 
 .container{   
     /* width: 1000px; */
-    width: 100%;
+    width: 95%;
 
     margin: 0 auto;
     display: inherit;
@@ -258,23 +259,15 @@ figure{
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;    
+    /* padding: 0px 10px; */
+    
 }
 
 @media screen and (max-width:1024px){
 
 }
 
-@media screen and (max-width:767px){
-    /* .header{
-        display: block;        
-    }
-    /* .header ol{
-        display: block;
-    } */ 
-}
-
-
-@media screen and (max-width:565px){
+@media screen and (max-width:768px){
     .header-logo{
         margin: auto;        
     }
@@ -290,7 +283,7 @@ figure{
          flex-wrap: wrap;
      }
      .hero-subtitle{
-         font-size: 25px;
+         font-size: 35px;
          padding: 0px 0px;
          margin: auto;
      }
@@ -304,14 +297,35 @@ figure{
     .hero-image img{
         height: auto; 
         width: auto; 
-        max-width: 300px; 
-        max-height: 300px;
+        max-width: 400px; 
+        max-height: 400px;
      }
+     .xhunco-image{
+        height: auto; 
+        width: auto; 
+        max-width: 200px; 
+        max-height: 200px;
+     }
+     
 }
 
+@media screen and (max-width:480px){
+    .xhuncopops-title{
+        text-align: center;
+    }
 
+    .xhunco{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-@media screen and (max-width:435px){
+    .xhunco-detail-title{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:320px){
     .header{
         display: block;        
     }
@@ -330,4 +344,27 @@ figure{
     .header ol li{
         height: 30px;
     }
+    .hero-image img{
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 300px;
+     }
+     .hero-subtitle{
+        font-size: 25px;
+        padding: 0px 0px;
+        margin: auto;
+    }
+    .xhuncopops-title{
+        font-size: 25px;
+    }
+
+    .xhunco-detail-title{
+        font-size: 20px;
+    }
+
+    .xhunco-detail-description{
+        font-size: 15px;
+    }
+    
 }

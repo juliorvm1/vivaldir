@@ -372,7 +372,7 @@ figure{
         font-size: 1rem;
     }
 }
-@media screen and (max-width:348px){
+@media screen and (max-width:440px){
     .header{
         display: block;        
     }

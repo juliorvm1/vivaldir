@@ -329,6 +329,9 @@ figure{
         /* flex-direction: column; */
         height: auto;
      }
+     .social-bar{
+        font-size: 1.1rem;
+    }
      
 }
 
@@ -365,7 +368,10 @@ figure{
         max-width: 150px; 
         max-height: 150px;
     }
-
+    .social-bar{
+        font-size: 1rem;
+    }
+}
 @media screen and (max-width:320px){
     .header{
         display: block;        
@@ -433,6 +439,9 @@ figure{
 
     .footer{
         text-align: center;
+    }
+    .social-bar{
+        font-size: .8rem;
     }
     
 }

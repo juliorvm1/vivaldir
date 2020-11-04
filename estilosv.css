@@ -306,6 +306,23 @@ figure{
         max-width: 200px; 
         max-height: 200px;
      }
+
+     .base{
+         width: 40%;
+         flex-direction: column;
+         height: auto;
+     }
+
+     .base-detail{
+         height: 200px;
+     }
+
+     .img-base{
+        height: auto; 
+        width: auto; 
+        max-width: 200px; 
+        max-height: 200px;
+     }
      
 }
 
@@ -323,7 +340,18 @@ figure{
         text-align: center;
     }
 
-}
+    .base-description{
+        font-size: 15px;
+    }
+    .img-base{
+        height: auto; 
+        width: auto; 
+        max-width: 150px; 
+        max-height: 1500px;
+    }
+    .base-detail{
+        height: 150px;
+    }
 
 @media screen and (max-width:320px){
     .header{
@@ -365,6 +393,11 @@ figure{
 
     .xhunco-detail-description{
         font-size: 15px;
+    }
+    .base{
+        width: 95%;
+        flex-direction: column;
+        height: auto;
     }
     
 }

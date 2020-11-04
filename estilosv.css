@@ -15,9 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    z-index: 100;
-    /* height: 200px;
-    width: 200px; */
+    z-index: 100;  
 }
 .icon{
     color:white;
@@ -34,9 +32,7 @@
 }
 
 .icon-facebook{
-    background: #2E406E;
-    /* height: 50px;
-    width: 50px; */
+    background: #2E406E;    
 }
 .icon-instagram{
     background: #3F60A5;
@@ -48,31 +44,29 @@
     border-radius: 0 0 0 1rem;
 }
 
-body{
-    /* background-color: #8a4af3; */
-    /* background-color:white; */
-    /* background-color:#f6a5c0; */
+body{  
     background-color: rgb(250, 250, 250);
-    margin: 0px;
-   
+    margin: 0px;   
 }
 
 
 header{  
+    /* border: 5px solid red; */
+    margin: auto;
     font-family: "Roboto"; 
     text-transform: uppercase;
     background-color: white;            
     font-size: 15px; 
-    font-weight: 400;    
-    height: 100px;
+    font-weight: 400;        
+    height: auto;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    position: fixed;
-    z-index: 0; 
+    justify-content: space-between;    
+    flex-wrap: wrap;
+    /* left: 0px;
+    top: 0px; */
+    /* position: fixed;
+    z-index: 0;  */
 }
 
 
@@ -85,6 +79,7 @@ h1{
 .header ol{
     height: inherit;
     display: flex;
+    flex-wrap: wrap;
 }
 
  .header ol li{
@@ -113,7 +108,7 @@ figure{
     padding: 100px 20px 100px 100px;
     font-family: "Pacifico";
     font-size: 40px;
-    /* color:white; */
+   
 }
 
 .hero-image{
@@ -123,13 +118,11 @@ figure{
 
 .xhuncopops-title , .basecelular-title, .esferasnavidad-title{
     font-size: 30px;
-    color:black;
-    /* margin-top: 140px; */
+    color:black;   
 }
 
 .xhuncopops{
-    /* border: red 1px solid; */
-    /* background-color: paleturquoise; */
+    
 }
 .xhunco{
     background-color: white;
@@ -165,16 +158,14 @@ figure{
  }
 
 
-.basescelular{
-    /* border: blue 1px solid; */
+.basescelular{    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
  .base{
     width: 45%;
-    height: 200px;
-    /* background-color: white; */
+    height: 200px;   
     background-color: #f4fbff;
     border: solid 1px gray;
     border-radius: 10px;
@@ -199,9 +190,7 @@ figure{
 .img-base{
     display: block;
     margin: auto;
-    width:200px ;
-    /* height: 200px; */
-    
+    width:200px ;      
     
 }
 
@@ -214,14 +203,12 @@ figure{
 .esferasnavidad{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* border: 1px solid blue; */
+    justify-content: space-between;   
 }
 
 .esfera{
     width: 45%;
-    height: 300px;
-    /* background-color: white; */
+    height: 300px;   
     background-color: #f4fbff;
     border: solid 1px gray;
     border-radius: 10px;
@@ -242,22 +229,18 @@ figure{
 .esfera-title{
     font-family: "Staatliches";
     font-size: 20px;
-    margin: 10px 150px 10px 150px;
-    /* text-align: center;    */
+    margin: 10px 150px 10px 150px;  
 }
 
 .footer{
     background-color: #0087ff;
-    color: white;
-    /* border: solid 1px gray;
-    border-radius: 10px;
-    margin-bottom: 15px; */
+    color: white;   
     padding:20px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
-    
-    /* box-shadow: 3px 5px 10px #888888; */
+    justify-content: space-around;    
+   
 }
 
 .footer a{
@@ -265,13 +248,65 @@ figure{
     color: white;
 }
 
-.container{
-    /* border: 5px solid red; */
-    width: 1000px;
+.container{   
+    /* width: 1000px; */
+    width: 100%;
+
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;    
+}
+
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width:767px){
+    /* .header{
+        display: block;        
+    }
+    /* .header ol{
+        display: block;
+    } */ 
+}
+
+
+@media screen and (max-width:565px){
+    .header-logo{
+        margin: auto;        
+    }
+    .header ol{
+        /* display:block; */
+        /* text-align: center; */
+    } 
+     .header-menu{
+         display: block;
+         margin: auto;
+     }
+}
+
+
+
+@media screen and (max-width:435px){
+    .header{
+        display: block;        
+    }
+    .header-logo{
+        text-align: center;
+        
+    }
+    .header-menu{
+        
+    }     
+          
+    .header ol{
+        display:block;
+        text-align: center;
+    } 
+    .header ol li{
+        height: 30px;
+    }
 }

@@ -279,12 +279,33 @@ figure{
         margin: auto;        
     }
     .header ol{
-        /* display:block; */
-        /* text-align: center; */
+        
     } 
      .header-menu{
          display: block;
          margin: auto;
+     }
+
+     .hero{
+         flex-wrap: wrap;
+     }
+     .hero-subtitle{
+         font-size: 25px;
+         padding: 0px 0px;
+         margin: auto;
+     }
+
+    .hero-image{
+        padding: 0px 0px;
+        margin: auto;
+
+    }
+
+    .hero-image img{
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 300px;
      }
 }
 

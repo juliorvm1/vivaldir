@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="font.css">    
 </head>
 <body>
+    <i class="icon-menu burger-button" id="burguer-menu"></i>
     <div class="social-bar">
         <a href="https://www.facebook.com/VivaldiCrea/" class="icon icon-facebook" target="_blank"></a>        
         <a href="https://www.instagram.com/vivaldi_crea/" class="icon icon-instagram" target="_blank"></a>        
@@ -202,6 +203,27 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        console.log('Hola mundo! es mi primera linea en JS');
+
+        const menu=document.querySelector('.header-menu');
+        console.log(menu); 
+        const burguerButton=document.querySelector('#burguer-menu');
+        console.log(burguerButton);
+
+        burguerButton.addEventListener('click',hideShow);
+
+        function hideShow(){
+            if(menu.classList.contains('is-active'))
+            {
+                menu.classList.remove('is-active');
+            }else{
+                menu.classList.add('is-active');
+            }
+        }
+
+    </script>
 
 </body>
 </html>

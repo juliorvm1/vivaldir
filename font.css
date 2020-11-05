@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?f4pxao');
-  src:  url('fonts/icomoon.eot?f4pxao#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?f4pxao') format('truetype'),
-    url('fonts/icomoon.woff?f4pxao') format('woff'),
-    url('fonts/icomoon.svg?f4pxao#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1ht4ig');
+  src:  url('fonts/icomoon.eot?1ht4ig#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1ht4ig') format('truetype'),
+    url('fonts/icomoon.woff?1ht4ig') format('woff'),
+    url('fonts/icomoon.svg?1ht4ig#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,9 +25,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook:before {
-  content: "\ea90";
+.icon-menu:before {
+  content: "\e901";
+}
+.icon-list:before {
+  content: "\e901";
+}
+.icon-options:before {
+  content: "\e901";
+}
+.icon-lines:before {
+  content: "\e901";
+}
+.icon-hamburger:before {
+  content: "\e901";
 }
 .icon-instagram:before {
-  content: "\ea92";
+  content: "\e900";
+}
+.icon-brand:before {
+  content: "\e900";
+}
+.icon-social:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\1f336";
+}
+.icon-brand1:before {
+  content: "\1f336";
+}
+.icon-social1:before {
+  content: "\1f336";
 }

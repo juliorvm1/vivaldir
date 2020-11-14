@@ -205,14 +205,11 @@
     </footer>
 
     <script>
-        console.log('Hola mundo! es mi primera linea en JS');
-
-        const menu=document.querySelector('.header-menu');
-        console.log(menu); 
+        const menu=document.querySelector('.header-menu');        
         const burguerButton=document.querySelector('#burguer-menu');
-        console.log(burguerButton);
+        burguerButton.addEventListener('click',hideShow)
 
-        burguerButton.addEventListener('click',hideShow);
+        
 
         function hideShow(){
             if(menu.classList.contains('is-active'))

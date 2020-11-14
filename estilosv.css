@@ -284,6 +284,12 @@ figure{
 }
 
 @media screen and (max-width:1024px){
+    .header{
+        /* left: 0px;
+        top: 0px;
+        position: fixed;
+        z-index: 6;  */
+    }
 
 }
 
@@ -417,9 +423,9 @@ figure{
         transition: .3s;   
         
     }     
-.header-menu.is-active{
-    left: 0;
-}
+    .header-menu.is-active{
+        left: 0;
+    }
 
     .header-menu-link{
         color: white;
